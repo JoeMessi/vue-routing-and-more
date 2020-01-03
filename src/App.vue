@@ -32,6 +32,8 @@ export default {
  #app {
    display: grid;
    grid-template-columns: 20% 60% 20%;
+   background: rgb(250,235,215);
+   background: linear-gradient(125deg, rgba(250,235,215,1) 4%, rgba(220,245,197,1) 80%);
  }
 
  div#middle-col {
@@ -40,6 +42,7 @@ export default {
    flex-direction: column;
    border: 1px solid #0000001c;
    border-top: none;
+   background: white;
  }
 
  /* Medium devices (tablets, less than 992px) */
