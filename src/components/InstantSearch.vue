@@ -152,6 +152,10 @@ input {
   text-indent: 16px;
 }
 
+div#courses-container {
+    height: 100vh;
+}
+
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
   div#main {
